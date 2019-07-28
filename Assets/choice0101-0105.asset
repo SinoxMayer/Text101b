@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ccd635b924b80540a40bdf767994ad7, type: 3}
+  m_Name: choice0101-0105
+  m_EditorClassIdentifier: 
+  storyText: "Guy In Yellow Raincoat:\nDude comeon keep moving\nI will get your arm
+    checked that looks nasty....\nI'm telling you CopSents ... they will be here soon\n\n1.
+    Ok.. ok I'm coming..\n2. F* of \n3. who were you ?"
+  arrayState:
+  - {fileID: 11400000, guid: 0d6da4fa49bb88e4182d1a3c686d7365, type: 2}

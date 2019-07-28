@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ccd635b924b80540a40bdf767994ad7, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "Guy In Yellow Raincoat:\nHey!!! ...\r\n..you!!!...\r\nyou awake ??'\r\nCommon
+    man got to get get up .... CopSents will be here ?\r\nDAMMM What happened to your
+    arm !!!\r\n\r\n\r\nYou Say: \r\n\r\n1. h..h..hi... my name is....ugh...\r\n2.
+    I'm C429942\r\n3. God Damm it where is my arm .\r\n4. Who the f*ck're you?\r\n5.
+    what do you think ... daa....\r\n"
+  arrayState:
+  - {fileID: 11400000, guid: d7cb4b4819245ab4b8f6cabbb90383f4, type: 2}
+  - {fileID: 11400000, guid: bca24cd057cc3344bb6250b7e7f87dd4, type: 2}
+  - {fileID: 11400000, guid: 97458f3a4d8ef874bbf597403770b703, type: 2}
+  - {fileID: 11400000, guid: 2a8657c351f9c28429f0d2ca3129918b, type: 2}
+  - {fileID: 11400000, guid: d7cb4b4819245ab4b8f6cabbb90383f4, type: 2}
