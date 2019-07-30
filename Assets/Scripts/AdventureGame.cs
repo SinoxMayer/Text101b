@@ -33,6 +33,8 @@ public class AdventureGame : MonoBehaviour
     private void ManageState()
     {
         var nextStates = state.GetArrayState();
+
+        
         if (Input.GetKeyDown(KeyCode.Alpha1)) 
         {
             if (nextStates[0] != null)

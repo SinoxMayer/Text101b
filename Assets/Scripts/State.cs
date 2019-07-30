@@ -5,8 +5,9 @@ using UnityEngine;
 
 [CreateAssetMenu(menuName = "State")]
 public class State : ScriptableObject
-{
+{   /*bu alanda Stateler içinde text girmelik bir alan oluşturyoruz bu alan serializefield ile geliyor */
     [TextArea(10, 14)] [SerializeField] string storyText;
+    /*State array oluşturuyor ve bunu serializefield ile ekrana cıkarıyor */
     [SerializeField] State[] arrayState;
 
 

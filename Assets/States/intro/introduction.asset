@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ccd635b924b80540a40bdf767994ad7, type: 3}
+  m_Name: introduction
+  m_EditorClassIdentifier: 
+  storyText: "Ho\u015Fgeldin yolcu nereden geliyorsun buralara . Senin kimli\u011Fin
+    nedir ...S\xF6ylemeden unutma her dedi\u011Fini unutmadan dinliyor olaca\u011F\u0131m.\n\n\n"
+  arrayState:
+  - {fileID: 11400000, guid: 3b43413b7939043499464eae15bbcd4c, type: 2}
