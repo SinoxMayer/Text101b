@@ -9,16 +9,20 @@ public class AdventureGame : MonoBehaviour
 
     [SerializeField] Text textComponent;
     [SerializeField] State startingState;
+    [SerializeField] FightState fightingState;
 
      
 
     State state;
+    FightState fightState;
 
     // Start is called before the first frame update
     void Start()
     { 
         state = startingState;
         textComponent.text = state.GetStateStory();
+        fightState = fightingState;
+   
     }
 
 

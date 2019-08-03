@@ -12,9 +12,9 @@ public class FightState : ScriptableObject
     [TextArea(1, 1)] [SerializeField] string dpsOfMonster;
     [TextArea(1, 1)] [SerializeField] string armorOfMonster;
 
-    public string   GetStateFight()
+    public (string,string,string)   GetStateFight()
     {
 
-        return hpOfMonster ;
+        return (hpOfMonster, dpsOfMonster, armorOfMonster);
     }
 }
