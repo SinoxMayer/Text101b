@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c396306cdfea36347be8fd0b9dba2e40, type: 3}
   m_Name: testfight
   m_EditorClassIdentifier: 
-  hpOfMonster: 0
+  hpOfMonster: 11
+  dpsOfMonster: 22
+  armorOfMonster: 33

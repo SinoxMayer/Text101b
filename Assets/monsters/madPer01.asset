@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c396306cdfea36347be8fd0b9dba2e40, type: 3}
   m_Name: madPer01
   m_EditorClassIdentifier: 
-  hpOfMonster: 
-  dpsOfMonster: 
-  armorOfMonster: 
+  hpOfMonster: 26
+  dpsOfMonster: 6
+  armorOfMonster: 1
