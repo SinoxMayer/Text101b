@@ -38,31 +38,41 @@ public class AdventureGame : MonoBehaviour
     {
         var nextStates = state.GetArrayState();
 
-        
-        if (Input.GetKeyDown(KeyCode.Alpha1)) 
-        {
-            if (nextStates[0] != null)
-            {
-                state = nextStates[0];
-            }
 
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        for (int i = 0; i < nextStates.Length; i++)
         {
-            if (nextStates[1] != null)
-            {
-                state = nextStates[1 ];
-            }
+            if (Input.GetKeyDown(KeyCode.Alpha1 + i))
+            {  
+                    state = nextStates[i];       
 
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            if(nextStates[2] != null )
-            {
-                state = nextStates[2];
-            }
-           
-             
+            } ;
+
+            //üsteki kod aynını yapıyor 
+            /*      
+                    if (Input.GetKeyDown(KeyCode.Alpha1)) 
+                    {
+                        if (nextStates[0] != null)
+                        {
+                            state = nextStates[0];
+                        }
+
+                    }
+                    else if (Input.GetKeyDown(KeyCode.Alpha2))
+                    {
+                        if (nextStates[1] != null)
+                        {
+                            state = nextStates[1 ];
+                        }
+
+                    }
+                    else if (Input.GetKeyDown(KeyCode.Alpha3))
+                    {
+                        if(nextStates[2] != null )
+                        {
+                            state = nextStates[2];
+                        }
+
+                */
 
         }
         textComponent.text = state.GetStateStory();
